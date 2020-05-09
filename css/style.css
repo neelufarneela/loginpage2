@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0fbfbf+0,0d3d8e+100&0.1+0,0.4+100 */
+background: -moz-linear-gradient(top,  rgba(15,191,191,0.1) 0%, rgba(13,61,142,0.4) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(15,191,191,0.1) 0%,rgba(13,61,142,0.4) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(15,191,191,0.1) 0%,rgba(13,61,142,0.4) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a0fbfbf', endColorstr='#660d3d8e',GradientType=0 ); /* IE6-9 */
+
+}
+header{
+	background-color: #3B5998;
+	min-height: 85px;
+}
+.container{
+	overflow: hidden;
+	width: 75%;
+	margin: auto;
+	padding-top: 16px;
+}
+
+.logo{
+	float: left;
+}
+.logo h1{
+	color: #fff;
+	font-weight: bold;
+	font-size: 42px;
+}
+.login{
+	float: right;
+	overflow: hidden;
+}
+.l1, .l2, .l3{
+	float: left;
+	margin-right: 12px;
+	color: #fff;
+	font-size: 12px;
+}
+
+.email_phone, .password{
+	padding: 3px;
+	border: 1px solid;
+	margin-top: 5px;
+	margin-bottom: 4px;
+}
+
+.login a{
+	text-decoration: none;
+	color: #bfe9f2ad;
+	font-size: 12px;
+}
+.login a:hover{
+	text-decoration-line: underline;
+}
+.login button{
+	color: #fff;
+	background-color: #446CBF;
+	margin: 20px 0;
+	padding: 3px 6px;
+	border: 1px solid #0e3f8a;
+	border-radius: 2px;
+}
+
+.login button:hover{
+	background-color: #3B5998;
+}
+
+.image{
+	float: left;
+	max-width: 50%;
+	margin-top: 32px;
+}
+.image h2{
+	color: #0E385F;
+	font-size: 20px;
+}
+img{
+	margin-top: 5px;
+}
+.info{
+	float: right;
+	max-width: 40%;
+	margin-top: 5px;
+}
+.info h1{
+	color: #333;
+	font-size: 38px;
+	margin-bottom: 12px;
+}
+.info h3{
+	color: #333;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+form{
+	overflow: hidden;
+}
+.first_name, .surname, .mobile_email, .new_password{
+	padding: 8px 13px;
+	border-radius: 5px;
+	border: 1px solid #86bcc8ad;
+	font-size: 18px;
+	width: 90%;
+	margin-bottom: 10px;
+}
+.top1{
+	width: 40%;
+	float: left;
+	margin-bottom: 10px;
+}
+.top2{
+	width: 40%;
+	float: right;
+	margin-bottom: 10px;
+	margin-right: 13px;
+}
+.bday, .gen{
+	color: #90949C;
+	font-weight: bold;
+	margin-top: 22px;
+	margin-bottom: 7px;
+}
+select{
+	padding: 6px;
+	border: 1px solid red;
+}
+option{}
+.q{
+	text-decoration: none;
+	color: #E2E6F0;
+	background-color: #606770;
+	border-radius: 50%;
+	padding: 2px 6px;
+	font-size: 14px;
+	margin-left: 12px;
+}
+.gender{
+	margin: 8px;
+}
+p{
+	color: #767980;
+	font-size: 12px;
+	margin: 16px 0;
+	padding-right: 50px;
+}
+p a{
+	color: #385898;
+	text-decoration: none;
+}
+p a:hover{
+	text-decoration-line: underline;
+}
+.sign{
+	padding: 10px 60px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #29481C;
+	background-color: #61974C;
+	color: #fff;
+	font-weight: bold;
+	margin: 10px 0;
+}
+.sign:hover{
+	background-color: #61974CE3;
+}
+.p2{
+	font-size: 14px;
+	font-weight: bold;
+	padding: 16px 0;
+}
+
+footer{
+	background-color: #fff;
+}
+.foot1{
+	font-size: 13px;
+	margin-top: 30px;
+}
+.foot1 span{
+	color: #767980;
+}
+.foot1 a, .foot2 a{
+	color: #385898;
+	text-decoration: none;
+	padding: 6px;
+}
+.foot1 a:hover{
+	text-decoration-line: underline;
+}
+.foot2 a:hover{
+	text-decoration-line: underline;
+}
+.foot1 button{
+	padding: 0 5px;
+	font-weight: bold;
+	color: #767980;
+	font-size: 14px;
+	border: 1px solid #767980;
+}
+.foot1 button:hover{
+	background-color: #c2c6d0d6;
+}
+
+hr{
+	margin: 12px 0;
+	border: 0.5px solid #7679804d;
+}
+
+.foot2{
+	font-size: 13px;
+}
+.copyright{
+	color: #767980;
+	font-size: 11px;
+	padding: 6px 0;
+}
+
